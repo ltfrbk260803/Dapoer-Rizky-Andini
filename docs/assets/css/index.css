@@ -190,7 +190,9 @@ label{
 .contact .left li:hover {
     background-color: rgba(0, 0, 0,.8);
 }
-
+.contact .left .icon{
+    font-size: 30px;
+}
 .contact .left a{
     color: white;
     text-decoration: none;
@@ -228,6 +230,7 @@ label{
         position: absolute;
         width: fit-content;
         left: 0px;
+        font-size: 20px;
     }
     .navbar ul{
 
@@ -280,6 +283,8 @@ label{
     .contact{
         height: 680px;
     }
+
+
     .contact .right{
         display: none;
         width: 0%;
@@ -287,5 +292,11 @@ label{
     .contact .left{
         text-align: center;
         width: 100%;
+    }
+    .contact .left a{
+        font-size: 20px;
+    }
+    .contact .left .icon{
+        font-size: 20px;
     }
 }
