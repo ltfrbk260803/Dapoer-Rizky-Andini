@@ -72,14 +72,13 @@ label{
 }
 
 .about .gabung{
-    display: flex;
     padding-left: 10%;
     padding-right: 10%;
 }
 .about .gabung .teks{
     width: 50%;
     color:white;
-    padding-top: 275px;
+    padding-top: 260px;
 }
 .about .gabung .teks h1{
     font-size: 50px;
@@ -234,6 +233,7 @@ label{
         left: 0px;
         font-size: 20px;
     }
+    
     .navbar ul{
 
         position: fixed;
@@ -270,32 +270,36 @@ label{
         max-height: 100%;
         transition: all is ease-out;
     }
+    .header{
+        height: 750px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .about{
+        height: 750px;
+    }
     .header h1{
-        padding-top: 300px;
-        font-size: 40px;
+        padding-top: 275px;
+        font-size: 30px;
+    }
+    .header p{
+        font-size: 15px
     }
     .about .gabung .teks h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     .about .gabung .teks p{
-        font-size: 13px;
+        font-size: 15px;
     }
     .about .gabung .teks{
         width: 100%;
         color:white;
-        padding-top: 230px;
+        padding-top: 235px;
         text-align: center;
-    }
-    .about .gabung .teks h1{
-        font-size: 50px;
-    }
-    .about .gabung .teks p{
-        font-size: 25px;
     }
     .contact{
         height: 680px;
     }
-
 
     .contact .right{
         display: none;
@@ -304,6 +308,10 @@ label{
     .contact .left{
         text-align: center;
         width: 100%;
+    }
+    .contact .left h1{
+        font-size: 40px;
+        padding-top: 275px;
     }
     .contact .left a{
         font-size: 20px;
